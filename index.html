@@ -10,6 +10,10 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
 
 </head>
 
@@ -50,6 +54,9 @@
                 continuous learning and professional growth, ensuring that we remain at the forefront of legal
                 developments.
             </p>
+            <span id="sign">Vidash Daizy - CEO </span>
+            <img src="./assests/images/icons/signature..webp" alt="">
+
             <!-- <div id="about-link">
             <a href="" class="our-story">Our Story
 
@@ -59,42 +66,138 @@
         </div>
         </div>
     </section>
-    <section >
+    <section>
         <span class="sub-header1">Our Practice Area</span>
-        <div class="flex-container"> 
-        <div><img src="./assests/images/about1.jpg" alt="">
-            <br>
-            <span class="head1">Family Law</span>
-            <br>
-            <p class="para1">Bring to the table win-win survival strategies to ensure proactive domination. At the end
-                of the day,
-                going forward.</p>
+        <div class="flex-container">
+            <div><img src="./assests/images/about1.jpg" alt="">
+                <br>
+                <span class="head1">Family Law</span>
+                <br>
+                <p class="para1">Bring to the table win-win survival strategies to ensure proactive domination. At the
+                    end
+                    of the day,
+                    going forward.</p>
+            </div>
+            <div><img src="./assests/images/hero_image.jpg" alt="">
+                <br>
+                <span class="head1">Corporate Law</span>
+                <br>
+                <p class="para1">Bring to the table win-win survival strategies to ensure proactive domination. At the
+                    end
+                    of the day,
+                    going forward.</p>
+            </div>
+            <div><img src="./assests/images/pexels-rdne-7841463.jpg" alt="">
+                <br>
+                <span class="head1">Acidental Law</span>
+                <br>
+                <p class="para1">Bring to the table win-win survival strategies to ensure proactive domination. At the
+                    end
+                    of the day, going forward.</p>
+            </div>
         </div>
-        <div><img src="./assests/images/hero_image.jpg" alt="">
-            <br>
-            <span class="head1">Corporate Law</span>
-            <br>
-            <p class="para1">Bring to the table win-win survival strategies to ensure proactive domination. At the end
-                of the day,
-                going forward.</p>
-        </div>
-        <div><img src="./assests/images/pexels-rdne-7841463.jpg" alt="">
-            <br>
-            <span class="head1">Acidental Law</span>
-            <br>
-            <p class="para1">Bring to the table win-win survival strategies to ensure proactive domination. At the end
-                of the day, going forward.</p>
-        </div>
-    </div>
     </section>
 
-    <section class="practice-area">
+    <section id="grid-form">
         <div class="sub-header1">
-            <h3>Our Practice Area</h3> </div>
-        <div>
-            <div></div>
+            <p>Our Practice Area</p>
+        </div>
+        <div id="gridform-main">
+            <div id="grid-container">
+                <div class="grid-item">
+                    <img src="./assests/images/icons/lawyer.png" alt="">
+                    <p>Family Law</p>
+                    <p> Bring to the table win-win survival strategies to ensure proactive domination. At the end of the
+                        day, going forward.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./assests/images/icons/law (1).png" alt="">
+                    <p>Corporate Law</p>
+                    <p> Bring to the table win-win survival strategies to ensure proactive domination. At the end of the
+                        day, going forward.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./assests/images/icons/justice.png" alt="">
+                    <p>Acidental Law</p>
+                    <p> Bring to the table win-win survival strategies to ensure proactive domination. At the end of the
+                        day, going forward.</p>
+                </div>
+                <div class="grid-item">
+                    <img src="./assests/images/icons/law (2).png" alt="">
+                    <p>Finance Law</p>
+                    <p> Bring to the table win-win survival strategies to ensure proactive domination. At the end of the
+                        day, going forward.</p>
+                </div>
+            </div>
+            <div id="form-container" class="container">
+                <div id="form-head" class="text-center">
+                    <p id="formp-one" class="h4">Get Free Quote</p>
+                    <p id="formp-two">Bring to the table win-win survival strategies to ensure proactive domination.</p>
+                </div>
+                <br><br>
+                <form action="">
+                    <div id="input-grid" class="form-row">
+                        <div class="form-group col-md-6 form-item">
+                            <input type="text" id="name" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group col-md-6 form-item">
+                            <input type="email" id="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6 form-item">
+                            <select name="variant" id="variant" class="form-control">
+                                <option value="latte">Your Name</option>
+                                <option value="cappucino">Email</option>
+                                <option value="mocha">Family Law</option>
+                                <option value="americano">Message</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-12" id="message">
+                            <textarea id="message" name="message" rows="4" class="form-control"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <button id="mbutton" class="btn btn-primary">SUBMIT</button>
+                </form>
+            </div>
 
         </div>
+
+        <section>
+            <h3 class="sub-header1">Why Choose Us?</h3>
+            <div>
+            <p id="parag1">"Our professional leadership team is truly committed to producing the best results for our clients very
+                successfully..</p>
+            <p id="parag2">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day,
+                going forward, a new normal that has evolved from generation.</p>
+                <button>Learn More</button>
+            </div>
+        </section>
+        <!-- <div class="sub-header1">
+            <h3>Our Practice Area</h3>
+        </div>
+        <div id="sec1">
+            <div id="columns">
+                <div id="column1">
+                    <div id="column1-a">
+                        <div id="family">
+                            <img src="./assests/images/New Images/law-4617873_640.jpg" alt="">
+                            <p>Family Law</p>
+                        </div>
+                        <div id="column1-b"></div>
+                        <div id="column2">
+                            <div id="column2-a"></div>
+                            <div id="column2-b"></div>
+                        </div>
+                        <div id="column-annex">
+                            <div id="column-annex-a"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div> -->
     </section>
 
     <!-- <section class="grid-container">
